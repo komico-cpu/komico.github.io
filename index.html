@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Komico Portfolio</title>
+
+<style>
+body{
+    font-family: "Microsoft JhengHei", sans-serif;
+    margin:0;
+    background:#f7f7f7;
+    color:#333;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:white;
+}
+
+h1{
+    margin:0;
+}
+
+.subtitle{
+    color:#666;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:12px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.price{
+    line-height:1.8;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Komico</h1>
+    <p class="subtitle">
+        插畫 / Live2D / 遊戲創作
+    </p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>關於我</h2>
+        <p>
+            你好，我是 Komico。
+            目前正在學習遊戲開發與角色設計，
+            喜歡創作原創角色、插畫與Live2D模型。
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>作品展示</h2>
+
+    <div class="gallery">
+
+        <img src="作品1.jpg" alt="作品1">
+
+        <img src="作品2.jpg" alt="作品2">
+
+        <img src="作品3.jpg" alt="作品3">
+
+        <img src="作品4.jpg" alt="作品4">
+
+    </div>
+</section>
+
+<section>
+    <div class="card">
+        <h2>委託資訊</h2>
+
+        <div class="price">
+            頭像：500元起<br>
+            半身：1000元起<br>
+            全身：2000元起<br>
+            Live2D拆件：另議
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="card">
+        <h2>聯絡方式</h2>
+
+        Email：yourmail@example.com<br>
+        Facebook：你的FB<br>
+        Discord：你的Discord
+    </div>
+</section>
+
+<footer>
+    © Komico Portfolio
+</footer>
+
+</body>
+</html>
