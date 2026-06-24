@@ -74,6 +74,15 @@ footer{
 .gallery .card:hover{
     transform:translateY(-5px);
 }
+/* 联络区链接样式：蓝色，无下划线 */
+.contact-box a {
+    color: #0066cc;
+    text-decoration: none;
+}
+/* 鼠标悬浮时可选轻微变色，可删掉这段 */
+.contact-box a:hover {
+    color: #004499;
+}
     
 </style>
 </head>
@@ -84,7 +93,7 @@ footer{
     <h1>Komico</h1>
     <p class="subtitle">
         插畫 / 動畫 / 遊戲創作
-    </p>
+    </p >
 </header>
 
 <section>
@@ -98,7 +107,7 @@ footer{
             可接文字設/夢向
             歡迎約稿 交友
             
-        </p>
+        </p >
     </div>
 </section>
 
@@ -108,25 +117,25 @@ footer{
 
 <div class="gallery">
 
-    <a href="anime.html" class="card">
+    <a href=" " class="card">
         <h3>日系插畫</h3>
-        <p>搞OC的無敵了</p>
-    </a>
+        <p>搞OC的無敵了</p >
+    </a >
 
     <a href="animation.html" class="card">
         <h3>動畫作品</h3>
-        <p>逐格動畫、短動畫</p>
-    </a>
+        <p>逐格動畫、短動畫</p >
+    </a >
 
     <a href="live2d.html" class="card">
         <h3>G向</h3>
-        <p>美食展示</p>
-    </a>
+        <p>美食展示</p >
+    </a >
 
     <a href="game.html" class="card">
         <h3>遊戲開發</h3>
-        <p>Godot作品與Demo</p>
-    </a>
+        <p>Godot作品與Demo</p >
+    </a >
 
 </div>
 
@@ -148,12 +157,13 @@ footer{
 </section>
 
 <section>
-    <div class="card">
+    <!-- 添加 class 套用样式 -->
+    <div class="card contact-box">
         <h2>聯絡方式</h2>
 
         Email：komicoyu@gmail.com<br>
-        Facebook：https://www.facebook.com/profile.php?id=61590855217103<br>
-        instagram:https://www.instagram.com/komico.o_o/?__pwa=1#<br>
+        Facebook：<a href="https://www.facebook.com/profile.php?id=61590855217103" target="_blank">https://www.facebook.com/profile.php?id=61590855217103</a ><br>
+        instagram:<a href="https://www.instagram.com/komico.o_o/?__pwa=1#" target="_blank">https://www.instagram.com/komico.o_o/?__pwa=1#</a ><br>
     </div>
 </section>
 
