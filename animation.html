@@ -27,7 +27,7 @@ body{
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:20px;
 }
-.gallery img{
+.gallery img, .gallery video{
     width:100%;
     border-radius:12px;
     box-shadow:0 2px 8px rgba(0,0,0,0.08);
@@ -38,8 +38,15 @@ body{
     <h1>動畫作品</h1>
     <p class="back"><a href=" ">← 返回首頁</a ></p >
     <div class="gallery">
-        < img src="ani1.jpg" alt="動畫截圖1">
-        < img src="ani2.jpg" alt="動畫截圖2">
+        <!-- MP4 短片，自動播放、循環、靜音 -->
+        <video autoplay loop muted playsinline>
+            <source src="short_ani.mp4" type="video/mp4">
+            瀏覽器不支援影片播放
+        </video>
+        <!-- GIF 動圖，寫法和一般圖片完全一樣 -->
+        < img src="ani_gif1.gif" alt="逐格動畫">
+        <!-- 普通靜態截圖 -->
+        < img src="ani2.jpg" alt="動畫截圖">
     </div>
 </body>
 </html>
