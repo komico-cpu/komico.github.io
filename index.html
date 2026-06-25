@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 防緩存，避免舊頁面 -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
 <title>Komico Portfolio</title>
 
 <style>
@@ -79,7 +83,7 @@ footer{
     color: #0066cc;
     text-decoration: none;
 }
-/* 鼠标悬浮时可选轻微变色，可删掉这段 */
+/* 鼠标悬浮时可选轻微变色 */
 .contact-box a:hover {
     color: #004499;
 }
@@ -113,40 +117,30 @@ footer{
 
 <section>
     <h2>作品分類</h2>
-
-
 <div class="gallery">
-
+    <!-- 檔名對應，不用再改名 -->
     <a href="anime.html" class="card">
         <h3>日系插畫</h3>
         <p>搞OC的無敵了</p >
     </a >
-
     <a href="animation.html" class="card">
         <h3>動畫作品</h3>
         <p>逐格動畫、短動畫</p >
     </a >
-
     <a href="live2d.html" class="card">
         <h3>G向</h3>
         <p>美食展示</p >
     </a >
-
     <a href="game.html" class="card">
         <h3>遊戲開發</h3>
         <p>Godot作品與Demo</p >
     </a >
-
 </div>
-
-
 </section>
-
 
 <section>
     <div class="card">
         <h2>委託資訊</h2>
-
         <div class="price">
             頭像：200元起<br>
             半身：350元起<br>
@@ -156,7 +150,7 @@ footer{
     </div>
 </section>
 
-<section>
+<section class="contact-box">
     <div class="card">
         <h2>聯絡方式</h2>
         Email：komicoyu@gmail.com<br>
